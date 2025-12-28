@@ -1,0 +1,136 @@
+# Arduino IDE
+*.o
+*.a
+*.so
+.DS_Store
+Thumbs.db
+*.elf
+*.hex
+
+# Build directories
+build/
+obj/
+
+# Eclipse
+.project
+.cproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arduino libraries
+libraries/
+
+# Serial monitor logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.temp
+
+# OS specific
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Blynk tokens and credentials (security)
+*blynk*token*
+*.credentials
+secrets.h
+config.h
+
+# Test outputs
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Machine Learning models
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Data files
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# Sensor calibration data (may be regenerated)
+calibration_data/
+
+# Output files
+*.out
+*.bin
+
+# User-specific files
+.vscode/settings.json
+.vscode/extensions.json
+
+# Build artifacts
+*.d
+*.o.d
